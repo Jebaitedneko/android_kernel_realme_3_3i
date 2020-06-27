@@ -9,6 +9,9 @@
 #
 # Normal rules (sorted alphabetically)
 #
+build*.sh
+out
+los*
 .*
 *.a
 *.bin
