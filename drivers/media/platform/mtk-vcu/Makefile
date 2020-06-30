@@ -1,4 +1,4 @@
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 mtk-vcu-y += mtk_vcu.o \
 	mtk_vcodec_mem.o \
 

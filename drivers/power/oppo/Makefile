@@ -1,5 +1,5 @@
 ifeq ($(CONFIG_OPPO_CHARGER_MTK),y)
-subdir-ccflags-y += -Werror
+subdir-ccflags-y += 
 subdir-ccflags-y += -Wno-unused-variable
 endif
 
