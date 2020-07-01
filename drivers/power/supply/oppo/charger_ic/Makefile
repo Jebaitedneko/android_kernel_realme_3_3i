@@ -19,7 +19,7 @@ ifeq ($(CONFIG_OPPO_CHARGER_MTK),y)
 	else
 ifeq ($(CONFIG_OPPO_HQ_EULER_CHARGER),y)
 		MTK_PLATFORM := $(subst ",,$(CONFIG_MTK_PLATFORM))
-		subdir-ccflags-y += -Werror
+		subdir-ccflags-y +=
 		subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include
 		subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/include/mt-plat/$(MTK_PLATFORM)/include
 		subdir-ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/include
